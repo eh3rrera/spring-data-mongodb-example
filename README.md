@@ -3,7 +3,7 @@
 Command-line app to manage short recipes using an embedded MongoDB database and Spring Data.
 
 ## Requirements
-The app works with Maven and Java 8+, however, it's configured to work with Java 13 by default. If you have another version, modify the `maven.compiler.release` property in the pom.xml file.
+The app works with Maven and Java 8+, however, it's configured to work with Java 11 by default. If you have another version, modify the `maven.compiler.release` property in the pom.xml file.
 
 ## Usage
 Either import the project into an IDE and run the class `com.example.demo.DemoApplication` or in a Terminal window, execute the command `mvn spring-boot:run`.
